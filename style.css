@@ -111,6 +111,13 @@
 animation-duration: 5s;
 }
 
+/* fix to keep icon visible once WOWjs animation finishes */
 .et-waypoint{
     opacity: 1 !important;
+}
+
+/* change color of header on homepage video */
+.et_pb_bg_layout_dark, .et_pb_bg_layout_dark h1
+{
+color: #2ea3f2!important;
 }
