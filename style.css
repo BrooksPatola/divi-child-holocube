@@ -110,3 +110,7 @@
 -moz-animation-duration: 5s;
 animation-duration: 5s;
 }
+
+.et-waypoint{
+    opacity: 1 !important;
+}
