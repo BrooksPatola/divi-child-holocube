@@ -25,6 +25,7 @@
     
 } 
 
+/* custom owl carousel to display past project images */
 :root {
     --ds-module-number: 16;
     --ds-columns-desktop: 6;
@@ -101,4 +102,11 @@
 .ds-carousel .et_pb_column:hover {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
+}
+
+/* animate past projects heading WOWjs  */
+#pastProjects {
+-webkit-animation-duration: 5s;
+-moz-animation-duration: 5s;
+animation-duration: 5s;
 }
