@@ -1,4 +1,5 @@
-$(document).ready(function () {
+//Owl carousel
+jQuery(function ($) {
     $('.clients').owlCarousel({
         loop: true,
         dots: false,
