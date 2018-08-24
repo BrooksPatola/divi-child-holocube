@@ -1,5 +1,10 @@
+
+
+
+
+
 //Owl carousel
-jQuery(function ($) {
+/* jQuery(function ($) {
     $('.clients').owlCarousel({
         loop: true,
         dots: false,
@@ -12,5 +17,6 @@ jQuery(function ($) {
                 items: 5
             }
         }
+
     });
-});
+}); */

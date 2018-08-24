@@ -11,21 +11,10 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
  function sk_enqueue_scripts() {
   
      wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' );
-  
-
-     wp_enqueue_style( 'owl_css', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' );
-
-     wp_enqueue_style( 'owl_theme', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' );
 
      wp_enqueue_script( 'wow', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', array(), '', true );
 
-     wp_enqueue_script( 
-        'owl', 
-         'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',
-         array(), 
-         '', 
-         true
-    );
+    
  }
   
  //* Enqueue script to activate WOW.js
@@ -48,8 +37,6 @@ add_action( 'wp_enqueue_scripts', 'mycustomscript_enqueue' );
      <script type="text/javascript">
          new WOW().init();
      </script>
-
-    
  
  <?php }
 
