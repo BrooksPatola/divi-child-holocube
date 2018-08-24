@@ -1,0 +1,37 @@
+/*
+
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* BACKGROUND COLOR OF ALL SECTIONS  */
+.et_pb_section {
+    background-color: white;
+}
+
+/* 
+ .entry-title {
+    color: red;
+}
+
+
+.et_right_sidebar #sidebar{
+background-color: grey;
+}  */
+
+/* About Us header */
+ .et_pb_fullwidth_header_1 h2 {
+    padding-bottom: 25px; 
+    /* text-decoration: underline; */
+    
+} 
+
