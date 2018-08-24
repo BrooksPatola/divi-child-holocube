@@ -15,7 +15,7 @@
 
 /* BACKGROUND COLOR OF ALL SECTIONS  */
 .et_pb_section {
-    background-color: rgb(252, 249, 249);
+    background-color: rgb(255, 255, 255);
 }
 
 /* About Us header */
@@ -25,3 +25,80 @@
     
 } 
 
+:root {
+    --ds-module-number: 16;
+    --ds-columns-desktop: 6;
+    --ds-columns-tablet: 4;
+    --ds-columns-mobile: 2;
+    --ds-speed-desktop: 30s;
+    --ds-speed-tablet: 30s;
+    --ds-speed-mobile: 30s;
+}
+
+@media all and (min-width: 981px) {
+    :root {
+        --ds-column-width: auto;
+        --ds-module-width: calc(100vw / var(--ds-columns-desktop));
+        --ds-column-animation: calc(var(--ds-module-width) - (var(--ds-module-width) * 2));
+        --ds-scroll-speed: var(--ds-speed-desktop);
+    }
+}
+
+@media all and (max-width: 980px) {
+    :root {
+        --ds-column-width: auto;
+        --ds-module-width: calc(100vw / var(--ds-columns-tablet));
+        --ds-column-animation: calc(var(--ds-module-width) - (var(--ds-module-width) * 2));
+        --ds-scroll-speed: var(--ds-speed-tablet);
+    }
+}
+
+@media all and (max-width: 479px) {
+    :root {
+        --ds-module-width: calc(100vw / var(--ds-columns-mobile));
+        --ds-scroll-speed: var(--ds-speed-mobile);
+    }
+}
+
+.ds-carousel {
+    overflow: hidden;
+}
+
+.ds-carousel .et_pb_column {
+    display: grid;
+    grid-template-columns: repeat(var(--ds-module-number), var(--ds-module-width));
+    width: var(--ds-column-width);
+    -webkit-animation: scroll var(--ds-scroll-speed) linear infinite;
+    animation: scroll var(--ds-scroll-speed) linear infinite;
+}
+
+.ds-carousel .et_pb_module {
+    width: var(--ds-module-width) !important;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(var(--ds-column-animation) * (var(--ds-module-number) / 2)));
+        transform: translateX(calc(var(--ds-column-animation) * (var(--ds-module-number) / 2)));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(var(--ds-column-animation) * (var(--ds-module-number) / 2)));
+        transform: translateX(calc(var(--ds-column-animation) * (var(--ds-module-number) / 2)));
+    }
+}
+
+.ds-carousel .et_pb_column:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
