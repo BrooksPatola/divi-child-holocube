@@ -15,15 +15,33 @@
 
 /* BACKGROUND COLOR OF ALL SECTIONS  */
 .et_pb_section {
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+}
+
+/* change color of header on homepage video */
+.et_pb_bg_layout_dark h1
+{
+color: #2ea3f2!important;
 }
 
 /* About Us header */
- .et_pb_fullwidth_header_1 h2 {
+.et_pb_fullwidth_header_1 h2 {
     padding-bottom: 25px; 
     /* text-decoration: underline; */
     
 } 
+
+/* Services header */
+#services .et_pb_module_header {
+    padding-bottom: 25px;
+}
+
+
+/* About Us scroll down icon*/
+#aboutUs .et_pb_fullwidth_header .et_pb_fullwidth_header_scroll{
+    padding-bottom: 125px;
+}
+
 
 /* custom owl carousel to display past project images */
 :root {
@@ -116,8 +134,3 @@ animation-duration: 5s;
     opacity: 1 !important;
 }
 
-/* change color of header on homepage video */
-.et_pb_bg_layout_dark, .et_pb_bg_layout_dark h1
-{
-color: #2ea3f2!important;
-}
