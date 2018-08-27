@@ -57,10 +57,15 @@ color: #2ea3f2!important;
 
 /* custom owl carousel to display past project images */
 :root {
+    /*Your TOTAL number of modules, so if you have 8 modules duplicated, this number should be 16*/
     --ds-module-number: 16;
+    /*The number of modules you want displayed at any one time on desktop*/
     --ds-columns-desktop: 6;
+    /*The number of modules you want displayed at any one time on tablet*/
     --ds-columns-tablet: 4;
+    /*The number of modules you want displayed at any one time on mobile*/
     --ds-columns-mobile: 2;
+    /*The speed you want your carousel to move on desktop (increase value for slower, decrease for faster)*/
     --ds-speed-desktop: 30s;
     --ds-speed-tablet: 30s;
     --ds-speed-mobile: 30s;
