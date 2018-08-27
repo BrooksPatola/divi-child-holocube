@@ -42,6 +42,12 @@ color: #2ea3f2!important;
     padding-bottom: 125px;
 }
 
+/* Meet the Team header*/
+#theTeam .et_pb_header_content_wrapper h2{
+    padding-bottom: 25px;
+}
+
+
 /* products header */
 #products .et_pb_module_header {
     padding-bottom: 25px;   
