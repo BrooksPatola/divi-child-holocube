@@ -135,11 +135,11 @@ color: #2ea3f2!important;
 }
 
 /* animate past projects heading WOWjs  */
-#pastProjects {
--webkit-animation-duration: 5s;
--moz-animation-duration: 5s;
-animation-duration: 5s;
-}
+/* #pastProjects {
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+animation-duration: 2s;
+} */
 
 /* fix to keep icon visible once WOWjs animation finishes */
 .et-waypoint{
