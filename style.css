@@ -58,7 +58,7 @@ color: #2ea3f2!important;
 /* custom owl carousel to display past project images */
 :root {
     /*Your TOTAL number of modules, so if you have 8 modules duplicated, this number should be 16*/
-    --ds-module-number: 16;
+    --ds-module-number: 18;
     /*The number of modules you want displayed at any one time on desktop*/
     --ds-columns-desktop: 6;
     /*The number of modules you want displayed at any one time on tablet*/
