@@ -11,8 +11,8 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
  function sk_enqueue_scripts() {
   
      wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' );
-
-     wp_enqueue_style( 'fontAwesome', 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' );
+ 
+     wp_enqueue_style( 'fontAwesome', 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' );  
      
 
      wp_enqueue_script( 'wow', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', array(), '', true );
