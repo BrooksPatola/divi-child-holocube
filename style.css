@@ -54,7 +54,13 @@ color: #2ea3f2!important;
     padding-bottom: 25px;   
 }
 
+/* contact header */
 #contact .et_pb_module_header {
+    padding-bottom: 25px;  
+}
+
+/* media header */
+#media .et_pb_module_header {
     padding-bottom: 25px;  
 }
 
