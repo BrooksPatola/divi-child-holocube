@@ -14,7 +14,7 @@
 </li>
 
 <li class="et-social-icon et-social-youtube">
-<a href="https://www.youtube.com/channel/UCQcq-tAr2aDOOE_mWePuRiA" class="icon">
+<a href="https://www.youtube.com/channel/UCxSQ7lFMCCQ11VRNxa_48Pw/featured" class="icon">
 <span><?php esc_html_e( 'Youtube', 'Divi' ); ?></span>
 </a>
 </li>
