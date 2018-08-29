@@ -26,7 +26,7 @@ color: #2ea3f2!important;
 
 /* Scroll down icon color*/
 .et_pb_fullwidth_header .et_pb_fullwidth_header_scroll a .et-pb-icon{
-    color: #2ea3f2!important;
+    color: #2ea3f2;
 }
 
 /* About Us header */
@@ -166,3 +166,23 @@ animation-duration: 2s;
     opacity: 1 !important;
 }
 
+/* Social media menu icons*/
+ i.fab.fa-facebook:hover::before{
+   color: #2ea3f2;
+}
+
+i.fab.fa-instagram:hover::before{
+    color: #2ea3f2;
+ }
+
+ i.fab.fa-youtube:hover::before{
+    color: #2ea3f2;
+ }
+
+ i.fab.fa-linkedin:hover::before{
+    color: #2ea3f2;
+ }
+
+ i.fab.fa-twitter:hover::before{
+    color: #2ea3f2;
+ }
