@@ -24,6 +24,11 @@
 color: #2ea3f2!important;
 }
 
+/* Scroll down icon color*/
+.et_pb_fullwidth_header .et_pb_fullwidth_header_scroll a .et-pb-icon{
+    color: #2ea3f2!important;
+}
+
 /* About Us header */
 .et_pb_fullwidth_header_1 h2 {
     padding-bottom: 25px; 
