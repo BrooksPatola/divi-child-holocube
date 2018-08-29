@@ -186,3 +186,9 @@ i.fab.fa-instagram:hover::before{
  i.fab.fa-twitter:hover::before{
     color: #2ea3f2;
  }
+
+ /* Holocube H1 header over homepage video */
+#homeBanner .et_pb_module_header {
+    
+}
+
