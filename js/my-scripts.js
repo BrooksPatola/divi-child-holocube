@@ -19,7 +19,7 @@ jQuery(function ($) {
     //H1 tag 
     $("#homeBanner .et_pb_module_header ").addClass("wow zoomIn slower");
     //view products btn
-    $("#homeBanner .et_pb_button_one ").addClass("wow bounceInUp");
+    $("#homeBanner .et_pb_button_one ").addClass("wow bounceInUp delay-3s");
     //subheading
     $("#homeBanner .et_pb_fullwidth_header_subhead ").addClass("wow bounceInRight delay-2s");
     //services header
