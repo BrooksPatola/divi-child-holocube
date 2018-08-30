@@ -11,3 +11,8 @@ jQuery(function ($) {
     });
 });
 
+/* Adds the CSS class to the specified html element class*/
+jQuery(function ($) {
+    $(".et_pb_module_header").addClass("important blue");
+
+});

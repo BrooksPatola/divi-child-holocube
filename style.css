@@ -36,6 +36,12 @@ color: #2ea3f2!important;
     
 } 
 
+/* About Us header image */
+#aboutUs .header-logo {
+    max-width: 20% !important;
+    color: #2ea3f2 !important;
+}
+
 /* Services header */
 #services .et_pb_module_header {
     padding-bottom: 25px;
@@ -44,9 +50,9 @@ color: #2ea3f2!important;
 
 /* About Us scroll down icon*/
 #aboutUs .et_pb_fullwidth_header .et_pb_fullwidth_header_scroll{
-    padding-bottom: 25px;
+    padding-bottom: 25px; 
+    
 }
-
 
 /* Meet the Team header*/
 #theTeam .et_pb_header_content_wrapper h2{
@@ -192,3 +198,8 @@ i.fab.fa-instagram:hover::before{
     
 }
 
+/* add to module class to hide elements on mobile devices*/
+@media screen and (max-width: 900px)
+{
+.notonmobile {display: none;}
+}
