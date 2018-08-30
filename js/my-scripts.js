@@ -11,8 +11,8 @@ jQuery(function ($) {
     });
 });
 
-/* Adds the CSS class to the specified html element class*/
+/* inject class attributes to different elements*/
 jQuery(function ($) {
-    $(".et_pb_module_header").addClass("important blue");
+    $("#homeBanner .header-content").addClass("typewriter");
 
 });
