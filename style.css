@@ -194,9 +194,9 @@ i.fab.fa-instagram:hover::before{
  }
 
  /* Holocube H1 header over homepage video */
-#homeBanner .et_pb_module_header {
+/* #homeBanner .et_pb_module_header {
     
-}
+} */
 
 /* add to module class to hide elements on mobile devices*/
 @media screen and (max-width: 900px)
