@@ -11,7 +11,10 @@ jQuery(function ($) {
     });
 });
 
-/* inject class attributes to different elements*/
+/* inject class attributes to different elements
+*slow	2s
+*slower	3s
+*/
 jQuery(function ($) {
     //H1 tag 
     $("#homeBanner .et_pb_module_header ").addClass("wow zoomIn slower");
