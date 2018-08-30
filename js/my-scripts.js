@@ -16,3 +16,4 @@ jQuery(function ($) {
     $("#homeBanner .header-content").addClass("typewriter");
 
 });
+
