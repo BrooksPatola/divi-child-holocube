@@ -13,7 +13,13 @@ jQuery(function ($) {
 
 /* inject class attributes to different elements*/
 jQuery(function ($) {
-    $("#homeBanner .header-content").addClass("typewriter");
+    //H1 tag 
+    $("#homeBanner .et_pb_module_header ").addClass("wow zoomIn");
+    //view products btn
+    $("#homeBanner .et_pb_button_one ").addClass("wow bounceInUp");
+    //subheading
+    $("#homeBanner .et_pb_fullwidth_header_subhead ").addClass("wow bounceInRight");
+
 
 });
 
