@@ -36,6 +36,10 @@ color: #2ea3f2!important;
     padding-bottom: 25px;
 }
 
+#blog .header-logo {
+    max-width: 20% !important;
+}
+
 /* Services header */
 #services .et_pb_module_header {
     padding-bottom: 25px;
