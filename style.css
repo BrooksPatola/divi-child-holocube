@@ -193,6 +193,12 @@ i.fab.fa-instagram:hover::before{
     color: #2ea3f2;
  }
 
+
+/* footer social icons */
+#footer-bottom a.icon::before {
+    color: #2ea3f2 !important;
+}
+
  /* Holocube H1 header over homepage video */
 /* #homeBanner .et_pb_module_header {
     
@@ -203,6 +209,7 @@ i.fab.fa-instagram:hover::before{
 {
 .notonmobile {display: none;}
 }
+
 
 
 
