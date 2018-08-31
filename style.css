@@ -28,18 +28,12 @@ color: #2ea3f2!important;
 .et_pb_fullwidth_header .et_pb_fullwidth_header_scroll a .et-pb-icon{
     color: #2ea3f2;
 }
-
-/* About Us header */
-.et_pb_fullwidth_header_1 h2 {
-    padding-bottom: 25px; 
-    /* text-decoration: underline; */
-    
-} 
-
+ 
 /* About Us header image */
 #aboutUs .header-logo {
     max-width: 20% !important;
     color: #2ea3f2 !important;
+    padding-bottom: 25px;
 }
 
 /* Services header */
