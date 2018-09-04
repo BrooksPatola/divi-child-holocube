@@ -41,6 +41,13 @@ color: #2ea3f2!important;
     max-width: 20% !important;
 }
 
+/* services icons shrink when mobile view*/
+@media all and (max-width: 980px) {
+#services_section .et_pb_image_wrap img {
+    max-width: 25% !important; 
+} 
+}
+
 /* Services header */
 #services .et_pb_module_header {
     padding-bottom: 25px;
@@ -53,9 +60,11 @@ color: #2ea3f2!important;
     
 }
 
-/* Meet the Team header*/
-#theTeam .et_pb_header_content_wrapper h2{
-    padding-bottom: 25px;
+/* product page icons */
+@media all and (max-width: 980px) {
+#option_icon, #uses_icon, #steps_icon, #addon_icon .et_pb_image_wrap img {
+    max-width: 25% !important; 
+}
 }
 
 
