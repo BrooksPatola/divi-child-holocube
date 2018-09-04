@@ -15,7 +15,7 @@
 
 /* BACKGROUND COLOR OF ALL SECTIONS  */
 .et_pb_section {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(211,211,211,0.48);
 }
 
 /* change color of header on homepage video */
@@ -31,7 +31,8 @@ color: #2ea3f2!important;
  
 /* About Us header image */
 #aboutUs .header-logo {
-    max-width: 20% !important;
+    /* max-width: 20% !important; */
+    max-width: 25% !important;
     color: #2ea3f2 !important;
     padding-bottom: 25px;
 }
@@ -249,9 +250,7 @@ i.fab.fa-instagram:hover::before{
     }
     
 
-    @media (max-width: 980px) {
-    
-        }
+    /* size of top menu on mobile devices */
         @media (max-width: 980px) {
         #logo {
         max-width: 100% !important;
