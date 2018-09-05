@@ -285,3 +285,19 @@ i.fab.fa-instagram:hover::before{
     visibility: hidden !important;
     display: none !important;
 }
+
+/* mobile dropdown menu*/
+.et_mobile_menu{
+    width: 50% !important;
+    background: #2ea3f2 !important;
+}
+
+/* mobile dropdown menu list items */
+.et_mobile_menu li a {
+    color: #ffffff !important;
+}
+
+/* mobile li on hover */
+.et_mobile_menu li a:hover {
+    color: #edf000 !important;
+}
