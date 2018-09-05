@@ -37,6 +37,12 @@ color: #2ea3f2!important;
     padding-bottom: 25px;
 }
 
+@media screen and ( max-height: 740px) {
+    #aboutUs .header-logo {  
+        max-width: 10% !important;
+    }
+}
+
 #blog .header-logo {
     max-width: 20% !important;
 }
@@ -302,3 +308,4 @@ i.fab.fa-instagram:hover::before{
 .et_mobile_menu li a:hover {
     color: #edf000 !important;
 }
+
