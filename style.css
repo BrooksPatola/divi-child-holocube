@@ -37,6 +37,7 @@ color: #2ea3f2!important;
     padding-bottom: 25px;
 }
 
+/* mission logo sz when on laptop height */
 @media screen and ( max-height: 740px) {
     #aboutUs .header-logo {  
         max-width: 10% !important;
@@ -58,6 +59,14 @@ color: #2ea3f2!important;
 #services .et_pb_module_header {
     padding-bottom: 25px;
 }
+
+/* services padding for when in mobile view*/
+@media all and (max-width: 980px) {
+    .et_pb_fullwidth_header_2{
+       padding-top: 5px !important;
+       padding-bottom: 40px !important; 
+    } 
+    }
 
 
 /* About Us scroll down icon*/
@@ -308,4 +317,5 @@ i.fab.fa-instagram:hover::before{
 .et_mobile_menu li a:hover {
     color: #edf000 !important;
 }
+
 
