@@ -279,4 +279,9 @@ i.fab.fa-instagram:hover::before{
         .et_header_style_left .mobile_menu_bar {
         padding-bottom: 5px;
         }
-        
+
+/* hide social icons on mobile dropdown menu*/
+#et_mobile_nav_menu .et_mobile_menu .menu-item-type-custom {
+    visibility: hidden !important;
+    display: none !important;
+}
