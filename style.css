@@ -290,6 +290,7 @@ i.fab.fa-instagram:hover::before{
 .et_mobile_menu{
     width: 50% !important;
     background: #2ea3f2 !important;
+    opacity: 0.8;
 }
 
 /* mobile dropdown menu list items */
