@@ -76,11 +76,11 @@ color: #2ea3f2!important;
 }
 
 /* product page icons */
-@media all and (max-width: 980px) {
+/* @media all and (max-width: 980px) {
 #option_icon, #uses_icon, #steps_icon, #addon_icon .et_pb_image_wrap img {
     max-width: 25% !important; 
 }
-}
+} */
 
 
 /* products header */
