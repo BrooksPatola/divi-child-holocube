@@ -319,3 +319,10 @@ i.fab.fa-instagram:hover::before{
 }
 
 
+/* disable animations on mobile */
+ @media screen and (max-width: 980px) {
+    .wow{
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+} 
