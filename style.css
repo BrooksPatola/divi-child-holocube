@@ -45,9 +45,9 @@ color: #2ea3f2!important;
     }
 }
 
-#blog .header-logo {
+/* #blog .header-logo {
     max-width: 20% !important;
-}
+} */
 
 /* services icons shrink when mobile view*/
 @media all and (max-width: 980px) {
