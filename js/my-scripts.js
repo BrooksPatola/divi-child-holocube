@@ -27,8 +27,6 @@ jQuery(function ($) {
     $("#media .et_pb_module_header ").addClass("wow zoomIn slower");
     //contact header
     $("#contact .et_pb_module_header ").addClass("wow zoomIn slower");
-    //products header btn
-    $("#products .et_pb_button_one ").addClass("wow fadeIn delay-2s");
 
 });
 
