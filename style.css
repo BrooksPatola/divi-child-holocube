@@ -19,21 +19,22 @@
 }
 
 /* change color of header on homepage video */
-.et_pb_bg_layout_dark h1
+/* .et_pb_bg_layout_dark h1
 {
 color: #2ea3f2!important;
-}
+} */
 
 /* Scroll down icon color*/
 .et_pb_fullwidth_header .et_pb_fullwidth_header_scroll a .et-pb-icon{
-    color: #2ea3f2;
+    color: #ffffff !important;
 }
+
  
 /* About Us header image */
 #aboutUs .header-logo {
     /* max-width: 20% !important; */
     max-width: 15% !important;
-    color: #2ea3f2 !important;
+    /* color: #2ea3f2 !important; */
     padding-bottom: 25px;
 }
 
@@ -304,8 +305,8 @@ i.fab.fa-instagram:hover::before{
 /* mobile dropdown menu*/
 .et_mobile_menu{
     width: 50% !important;
-    background: #2ea3f2 !important;
-    opacity: 0.8;
+    background: black !important;
+    opacity: 0.6;
 }
 
 /* mobile dropdown menu list items */
@@ -315,7 +316,7 @@ i.fab.fa-instagram:hover::before{
 
 /* mobile li on hover */
 .et_mobile_menu li a:hover {
-    color: #edf000 !important;
+    color:#2ea3f2 !important;
 }
 
 
