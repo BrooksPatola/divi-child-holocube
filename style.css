@@ -3,8 +3,8 @@
  Theme Name:     Divi Child
  Theme URI:      https://www.elegantthemes.com/gallery/divi/
  Description:    Divi Child Theme
- Author:         Elegant Themes
- Author URI:     https://www.elegantthemes.com
+ Author:         Brooks Patola
+ Author URI:     https://www.brookspatola.com
  Template:       Divi
  Version:        1.0.0
 */
@@ -343,6 +343,7 @@ i.fab.fa-instagram:hover::before{
         font-size: 50px;
     }
 
+    /* remove padding between elements in mobile view */
     .et_pb_column .et_pb_module {
         padding-top: 0px !important;
     }
