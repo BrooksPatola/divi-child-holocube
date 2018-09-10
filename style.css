@@ -332,4 +332,6 @@ i.fab.fa-instagram:hover::before{
     }
 }  
 
-
+.et-pb-icon  {
+   color: #000000  !important;
+}
