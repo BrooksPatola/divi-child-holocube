@@ -347,4 +347,13 @@ i.fab.fa-instagram:hover::before{
     .et_pb_column .et_pb_module {
         padding-top: 0px !important;
     }
+
+    .et_pb_column {
+        margin-bottom: 0px; 
+    }
+    
+}
+/* padding between hero area button and content */
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container .header-content a.et_pb_button {
+    margin-top : 45px !important;
 }
